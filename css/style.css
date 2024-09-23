@@ -1,0 +1,62 @@
+@import url(function.css);
+
+ul.menu{
+     display: flex;
+     list-style: none;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+     position: relative;
+}
+ul.menu li{
+     margin: 20px;
+     font-size: 20px;
+     font-weight: bold;
+     color: var(--color-gray);
+     cursor: pointer;
+}
+ul.menu li:hover{
+     color: var(--color-text);
+}
+ul.menu li::before{
+     content: "";
+     width: 0;
+     height: 3px;
+     background-color: var(--color-text);
+     position: absolute;
+     bottom: 25px;
+     transition: 0.3s;
+}
+ul.menu li:hover::before{
+     width: 50px;
+}
+ul.user{
+     display: flex;
+     list-style: none;
+     justify-content: end;
+     align-items: center;
+     gap: 10px;
+     height: 100%;
+}
+.cards{
+     border-radius: 2px;
+}
+.cards .img{
+     overflow: hidden;
+     cursor: pointer;
+}
+.cards .img img{
+     transition: 0.3s;
+}
+.cards .img img:hover{
+     transform: scale(1.1 ,1.1);
+}
+.detail{
+     line-height: 20px;
+}
+.cards .detail .sale_price{
+     font-weight: bold;
+}
+.promotion{
+     z-index: 11;
+}

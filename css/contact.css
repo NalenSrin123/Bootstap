@@ -1,0 +1,12 @@
+@import url(function.css);
+
+.popup-contect{
+     width: 100vw;
+     height: 100vh;
+     z-index: 1111;
+     background: var(--dark);
+}
+.popup-contect .box{
+     border-radius: 5px;
+     background: var(--while);
+}

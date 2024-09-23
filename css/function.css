@@ -1,0 +1,12 @@
+*{
+     padding: 0;
+     box-sizing: content-box;
+}
+:root{
+     --color-text: #ffa704;
+     --color-gray: #6a6a6a;
+     --dark: #090909ab;
+     --while: #d6d6d6fb;
+     --color-white: #ffff;
+     --red: #d52929;
+}

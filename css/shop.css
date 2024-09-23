@@ -1,0 +1,16 @@
+@import url(function.css);
+
+ul.menu-category{
+     list-style: none;
+     padding: 0;
+}
+ul.menu-category li{
+     cursor: pointer;
+     font-weight: bold;
+     padding: 10px 10px;
+     font-size: 20px;
+}
+ul.menu-category li:nth-child(even){
+     background-color: var(--color-text);
+     color: var(--color-white);
+}
